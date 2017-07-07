@@ -1,6 +1,8 @@
+/* @flow */
+
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
-import FlexDirectionBasics from './components/test_component';
+import * as Layout from './components/layouts';
 import Bananas from './components/bananas';
 import Stateful from './components/stateful';
 import Styled from './components/styled';
